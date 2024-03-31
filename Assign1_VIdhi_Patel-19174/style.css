@@ -1,0 +1,70 @@
+/* CSS for header */
+header {
+  background-color: rgb(247, 241, 241); /* Change background color to red */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ec0c0c;
+  margin-bottom: 10px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input[type=text] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-container button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ec1a1a;
+}
+
+.search-container button:hover {
+  background-color: #ddd;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fb0101;
+  font-weight: bold;
+  transition: color 0.3s; /* Add smooth transition */
+}
+
+nav ul li a:hover {
+  color: #c21616; /* Change color on hover */
+}
+
+/* Center the image */
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* CSS for footer */
+footer {
+  background-color: #ed0606;
+  padding: 20px;
+  text-align: center;
+  color: #0b0a0a;
+}
